@@ -1,0 +1,138 @@
+@media (width > 768px) {
+    .headerbox {
+        gap: 350px;
+    }
+    .inputdiv {
+        width: 573px;
+        height: 69px;
+    }
+    input {
+        width: 400px;
+        color: #4B6A9B;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        padding-left: 20px ;
+    }
+    .searchicon {
+        margin-left: 20px;
+    }
+    .container {
+        width: 573px;
+    }
+    .catmobile {
+        display: none;
+    }
+    .catdesktop {
+        display: block;
+    }
+    h5 {
+        color: #2B3442;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    h4 {
+        color: #0079FF;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    h3 {
+        color: #697C9A;
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    .octocatdiv {
+        margin-left: -150px;
+    }
+    .context {
+        width: 493px;
+        color: #4B6A9B;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-left: 55px;
+    }
+    .followersdiv {
+        width: 493px;
+        height: 85px;
+        margin-left: 40px;
+    }
+    .txt {
+        color: #4B6A9B;
+        font-size: 13px;
+        font-weight: 400; 
+        margin-top: 30px; 
+    }
+    .num {
+        color: #2B3442;
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase; 
+        margin-top: -2px ;      
+    }
+    .threetxt {
+        gap: 70px;
+    }
+    .icondiv {
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+        margin-left: 60px;
+    }
+    .text1 {
+        color: #4B6A9B;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .ahreftxt {
+        color: #4B6A9B;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .img {
+        width: 117px;
+        height: 117px;
+    }
+}
+
+@media (width > 1440px) { 
+    .headerbox {
+        gap: 524px;
+    }
+    .inputdiv {
+        width: 730px;
+        height: 69px;
+    }
+    input {
+        width: 550px;
+        color: #4B6A9B;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        padding-left: 20px ;
+    }
+    .searchicon {
+        margin-left: 30px;
+    }
+    .container {
+        width: 730px;
+    }
+    .context {
+        margin-left: 195px;
+    }
+    .followersdiv {
+        margin-left: 190px;
+    }
+    .icondiv {
+        margin-left: 200px;
+    }
+    .octocatdiv {
+        gap: 30px;
+        margin-left: -310px;
+    }
+    .img {
+        width: 117px;
+        height: 117px;
+    }
+}
