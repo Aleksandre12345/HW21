@@ -28,6 +28,7 @@ async function getData() {
     try {
         let res = await fetch(`https://api.github.com/users/${Input.value}`)
         let data = await res.json()
+        btn.removeAttribute('disabled')
         Input.value = ""
         if(data.message!=="Not Found"){
             username.textContent = data.name
